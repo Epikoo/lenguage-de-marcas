@@ -1,0 +1,6 @@
+#ignorar todas las imagenes
+*.png
+*.jpg
+*.jpeg
+*.txt
+*.odt
