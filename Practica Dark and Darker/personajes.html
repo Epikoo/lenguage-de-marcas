@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+
+<body>
+    <header>
+        <!--------------------NAV---------------------------->
+        <nav class="Menu" id="nav">
+            <ul>
+                <a href="Index.html">
+                    <li><img src="images/fire-66.gif" alt="Casa"> Casa</li>
+                </a>
+                <a href="personajes.html">
+                    <li>Personajes</li>
+                </a>
+                <a href="lanzamiento.html">
+                    <li>Lanzamiento</li>
+                </a>
+                <a href="galeria.html">
+                    <li>Galeria</li>
+                </a>
+                <a href="https://store.steampowered.com/app/2016590/Dark_and_Darker/">
+                    <li>Beta</li>
+                </a>
+                <a href="https://www.darkanddarker.es">
+                    <li>About</li>
+                </a>
+            </ul>
+
+        </nav>
+
+        <!----------------------Imagen + titulo ------------------>
+        <div>
+            <img src="images/D_D.jpg" alt="Foto principal">
+        </div>
+    </header>
+    <!----------------------- Personajes------------------------>
+    <main>
+        <a href="#nav"><img src="images/D_D.jpg" alt="home" id="botonhome"></a>
+        <div id="cartas">
+            <!--------Carta Rogue--------->
+            <div class="personaje">
+                <img src="images/rogue-avatar.jpg" alt="rogue">
+                <h2>Rogues</h2>
+
+                <p>El Pícaro de Dark and Darker tiene gran velocidad de movimiento, velocidad de ataque y
+                    velocidad de interacción. Puede abrir cofres cerrados sin ganzúa, detectar y desarmar trampas.
+                    Se mueve de manera más sigilosa. Por el contrario, la clase Pícaro sufre de baja constitución, bajo
+                    bonus de
+                    daño y poca resistencia mágica. <a href="#rogue">Habilidades del rogue</a></p>
+            </div>
+            <!--------Carta Ranger------->
+            <div class="personaje">
+                <img src="images/ranger-avatar.jpg" alt="rogue">
+                <h2>Ranger</h2>
+                <p>El Arquero de Dark and Darker es rápido disparando su arco, puede rastrear enemigos, colocar trampas
+                    y
+                    colocar campfires rápidamente. Por el contrario, la clase Arquero no puede equiparse la mayoria de
+                    armas
+                    cuerpo a cuerpo y tiene bajo bonus de daño cuerpo a cuerpo. <a href="#ranger">Habilidades del
+                        ranger</a></p>
+            </div>
+            <!--------Carta Clerigo------->
+            <div class="personaje">
+                <img src="images/clerigo-avatar.jpg" alt="rogue">
+                <h2>Clerigo</h2>
+                <p>El Luchador de Dark and Darker puede equiparse la mayoria de armas y armaduras, tiene los
+                    atributos
+                    más balanceados que el resto de clases y una de sus habilidades le permite esprintar. Por el
+                    contrario, la clase Luchador es dependiente de su equipamiento y no es capaz de lanzar ningún
+                    hechizo. <a href="#clerigo">Habilidades del clerigo</a></p>
+            </div>
+        </div>
+        <!----------------------------------------ROGUE--------------------------------------------->
+        <img src="images/rogue-avatar.jpg" alt="rogue" id="rogue">
+        <h3>Rogues</h3>
+        <div class="tablashabilidades">
+            <!-----------------Activas------------------>
+            <table class="activa">
+                <caption>Activas</caption>
+                <thead>
+                    <th>Nombre</th>
+                    <th>Descripcion</th>
+                    <th>Cool Down</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hide</td>
+                        <td>Te haces invisible hasta el proximo movimiento de tu personaje
+                            Puedes cambiar el equipamiento
+                        </td>
+                        <td>40seg</td>
+                    </tr>
+                    <tr>
+                        <td>Al punto debil</td>
+                        <td>El siguiente ataque hace un 50% de daño adicional. Además, reduce
+                            la defensa del objetivo en un 50% durante 5 segundos.</td>
+                        <td>20 seg</td>
+                    </tr>
+                    <tr>
+                        <td>Rupture</td>
+                        <td>El siguiente ataque provoca sangrado, haciendo 20 de daño a lo
+                            largo de 5 segundos.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Smoke Bomb</td>
+                        <td>Deja caer una granada de humo que cubre un area de 7.5 metros durante 20 segundos. El humo
+                            ralentiza el movimieto del enemigo en un 15%.</td>
+                        <td>2 min</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!------------Tabla de las pasivaaaaas------------->
+            <table class="pasivas">
+                <caption>Pasivas</caption>
+                <thead>
+                    <th>Nombre</th>
+                    <th>Descripcion</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ambush</td>
+                        <td>El siguiente ataque en un máximo de 3 segundos tras salir de la invisibilidad hace un 50% de
+                            daño adicional.</td>
+                    </tr>
+                    <tr>
+                        <td>Backstab</td>
+                        <td>Un ataque satisfactorio aplica veneno, haciendo 4 de daño mágico durante 4 segundos. El
+                            veneno
+                            puede acumularse hasta 5 veces.</td>
+                    </tr>
+                    <tr>
+                        <td>Stealth</td>
+                        <td>Puedes moverte 10 pasos andando o agachado mientras eres invisible.</td>
+                    </tr>
+                    <tr>
+                        <td>Dagger Expert</td>
+                        <td>Las dagas hacen un 5% de daño adicional</td>
+                    </tr>
+                    <tr>
+                        <td>Creep</td>
+                        <td>Tus pasos son más silenciosos al andar o moverte agachado.</td>
+                    </tr>
+                    <tr>
+                        <td>Pickpocket</td>
+                        <td>Puedes robar objetos a tus enemigos.</td>
+                    </tr>
+                    <tr>
+                        <td>Hidden Pockets</td>
+                        <td>Los objetos brillantes como las pociones no se ven en tu cinturón.</td>
+                    </tr>
+                    <tr>
+                        <td>Trap Detection</td>
+                        <td>Detecta tramas cercana y permite desarmarlas.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!---------------------------------------------------------RANGER----------------------------------------------------------------->
+        </div>
+        <img src="images/ranger-avatar.jpg" alt="ranger" id="ranger">
+        <h3>Rangers</h3>
+        <div class="tablashabilidades">
+            <!---------------------ACTIVAS-------------------------->
+            <table class="activa">
+                <caption>Activas</caption>
+                <thead>
+                    <th>Nombre</th>
+                    <th>Descripcion</th>
+                    <th>Cool Down</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Quick Fire</td>
+                        <td>Tensas el arco un 50% más rapido durante 5 segundos.</td>
+                    </tr>
+                    <td>10 seg</td>
+                    <tr>
+                        <td>Quick Shot</td>
+                        <td>Dispara tres flechas en rápida sucesión.</td>
+                        <td>2min</td>
+                    </tr>
+                    <tr>
+                        <td>True Shot</td>
+                        <td>Aumenta la velocidad de vuelo de las flechas.</td>
+                        <td>30 seg</td>
+                    </tr>
+                    <tr>
+                        <td>Field Ration</td>
+                        <td>Recuperas 25 puntos de vida instantaneamente.</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <!------------Tabla de las pasivaaaaas------------->
+            <table class="pasivas">
+                <caption>Pasivas</caption>
+                <thead>
+                    <th>Nombre</th>
+                    <th>Descripcion</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nimble Hands</td>
+                        <td>La animación de disparo de tu arco es un 15% más rápida.</td>
+                    </tr>
+                    <tr>
+                        <td>Kinesthesia</td>
+                        <td>Te desplazas un 10% más rapido cuando te mueves con el arco tensado.</td>
+                    </tr>
+                    <tr>
+                        <td>Sharpshooter</td>
+                        <td>Los golpes a la cabeza hacen un 15% más de daño al golpear con armas a distancia.</td>
+                    </tr>
+                    <tr>
+                        <td>Enhanced Hearing</td>
+                        <td>Escuchas los pasos del enemigo desde aún más distancia.</td>
+                    </tr>
+                    <tr>
+                        <td>Creep</td>
+                        <td>Tus pasos son más silenciosos al andar o moverte agachado.</td>
+                    </tr>
+                    <tr>
+                        <td>Ranged Weapons Expert</td>
+                        <td>Aumenta tu poder de ataque físico en un 5% cuando empuñas armas a distancia.</td>
+                    </tr>
+                    <tr>
+                        <td>Tracking</td>
+                        <td>Eres capaz de rastrear los pasos de tu enemigo. Se mostrarán en color rojo en el suelo.</td>
+                    </tr>
+                    <tr>
+                        <td>Trap Expert</td>
+                        <td>Coloca trampas a una velocidad mayor que otras clases.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!---------------------------------------------------------Clerigo----------------------------------------------------------------->
+        </div>
+        <img src="images/clerigo-avatar.jpg" alt="clerigo" id="clerigo">
+        <h3>Clerigo</h3>
+        <div class="tablashabilidades">
+            <!---------------------ACTIVAS-------------------------->
+            <table class="activa">
+                <caption>Activas</caption>
+                <thead>
+                    <th>Nombre</th>
+                    <th>Descripcion</th>
+                    <th>Cool Down</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Adrenaline Rush</td>
+                        <td>Aumenta la velocidad de ataque un 25% durante 6 segundos. Tras esto, la velocidad de ataque
+                            y de movimiento se reducen durante 6 segundos.</td>
+                        <td>10 seg</td>
+                    </tr>
+
+                    <tr>
+                        <td>Second Wind</td>
+                        <td>Recuperas el 50% de tu vida total durante 12 segundos. Activar Second Wind elimina los
+                            efectos de Adrenaline Rush.</td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td>Sprint</td>
+                        <td>Tu velocidad de movimiento aumenta un 50% durante un breve periodo de tiempo.</td>
+                        <td>33 seg</td>
+                    </tr>
+
+                    <tr>
+                        <td>Taunt</td>
+                        <td>Aumenta el odio de los monstruos hacia ti un 50% en un radio de 7.5 metros y aumenta tu
+                            defensa en un 10% durante 7 segundos.</td>
+                        <td>4 min</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!------------Tabla de las pasivaaaaas------------->
+            <table class="pasivas">
+                <caption>Pasivas</caption>
+                <thead>
+                    <th>Nombre</th>
+                    <th>Descripcion</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Combo Attack</td>
+                        <td>Durante los próximo 3 segundos, el daño físico de los ataques que propines
+                            satisfactoriamente se verá aumentado en un 10% con cada golpe.</td>
+                    </tr>
+                    <tr>
+                        <td>Counterattack</td>
+                        <td>Una defensa exitosa aumenta tu velocidad de movimiento y velocidad de ataque un 10% durante
+                            3 segundos.</td>
+                    </tr>
+                    <tr>
+                        <td>Defense Expert</td>
+                        <td>Los golpes a la cabeza hacen un 15% más de daño al golpear con armas a distancia.</td>
+                    </tr>
+                    <tr>
+                        <td>Barricade</td>
+                        <td>Aumenta un 5% tu defensa cuando estas en posición defensiva.</td>
+                    </tr>
+                    <tr>
+                        <td>Weapon Mastery</td>
+                        <td>Puedes usar todas las armas primarias y secundarias. Se aplicará una reducción del daño del
+                            -20% a todas las armas no nativas.</td>
+                    </tr>
+                    <tr>
+                        <td>Swift</td>
+                        <td>Reduce la penalización de movimiento de tu armadura equipada en un -20%.</td>
+                    </tr>
+                    <tr>
+                        <td>Projectile Resistance</td>
+                        <td>Reduce el daño recibido por proyectiles en un -10%.</td>
+                    </tr>
+                    <tr>
+                        <td>Shield Expert</td>
+                        <td>Aumenta tu velocidad de movimiento un 5% cuando estas en posición defensiva.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+    </main>
+
+
+</body>
+
+</html>

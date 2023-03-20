@@ -1,0 +1,575 @@
+/*----------------------------------------------------------------------------------------------FUENTE-------------------------------------------------------------------------------------------*/
+@font-face {
+    font-family: "Medieval";
+    src: url(Old\ Europe.ttf);
+}
+
+@font-face {
+    font-family: "Texto";
+    src: url(Old\ Newspaper\ Font.ttf);
+}
+
+* {
+    scroll-behavior: smooth;
+    cursor: url(images/espazo.png), pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*------------------------------------------------------------------------------------------------FONDO---------------------------------------------------------------------------------------------------*/
+body {
+    background-image: url(images/fondito.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*------------------------------------------------------------------------------------------------NAVEGADOR---------------------------------------------------------------------------------------------*/
+nav {
+    margin-bottom: 3rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(51, 11, 11, 0.575) 30%, rgba(0, 0, 0, 0.509));
+    width: 100%;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+nav li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: "Medieval";
+    font-weight: lighter;
+    font-size: 2rem;
+
+}
+nav a:focus li{
+    border: dotted white 0.25rem;
+}
+
+nav a:active li{
+    border-top: dashed blue .25rem;
+}
+nav ul a{
+    text-decoration: none;
+}
+
+
+nav li img {
+    width: 3rem;
+}
+
+nav ul li:hover {
+    background-color: rgba(184, 144, 11, 0.555);
+    transition-delay: none;
+    transition: 1s ease-in;
+    cursor: url(images/candil.png), pointer;
+}
+
+nav li a:hover {
+    color: rgb(0, 0, 0);
+    transition: 1.5s ease-in;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-decoration: none;
+}
+
+nav li:first-child {
+    margin-left: 0%;
+}
+
+nav ul a:last-child {
+    float: right;
+    margin-right: 2rem;
+}
+
+/*------------------------------------------------------------------------------------------------CABECERA------------------------------------------------------------------------------------------------*/
+header div {
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+header div img {
+    width: 15%;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+main {
+    align-content: center;
+    align-items: center;
+}
+
+#botonhome {
+    border-radius: 100%;
+    width: 5%;
+    position: fixed;
+    bottom: 2%;
+    left: 2%;
+}
+
+/*-----------------------------------------------------------------------------------------------------------Texto index---------------------------------------------------------------------------*/
+#textoindex {
+    text-align: center;
+    background-image: url(images/textoindex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 2%;
+}
+
+#textoindex p {
+    font-family: "Texto";
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    width: 80%;
+    margin-left: 10%;
+    word-spacing: .4rem;
+    letter-spacing: .2rem;
+}
+
+#textoindex p:last-child {
+    padding-bottom: 10rem;
+}
+
+#textoindex p::first-letter {
+    font-size: 4rem;
+    font: "Medieval";
+}
+
+#textoindex::first-line {
+    font-family: "Medieval";
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    text-shadow: rgb(0, 0, 0) 0.5rem 1rem .8rem;
+
+}
+
+#textoindex div {
+    z-index: 1;
+    float: center;
+
+}
+
+#textoindex iframe {
+    animation-play-state: paused;
+}
+
+main h2 {
+    margin-top: 3rem;
+}
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------TARJETAS PERSONAJES---------------------------------------------------------------------------*/
+.personaje {
+    border: 1px solid black;
+    width: 20%;
+    margin-bottom: 8rem;
+    text-align: left;
+    background-color: #bab39fcc;
+    border-radius: 8%;
+    max-width: 30%;
+    line-height: 1.8rem;
+    
+}
+
+.personaje p {
+    font-family: "Texto";
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.personaje p a {
+    color: red;
+}
+
+.personaje p a:link {
+    font-family: "Medieval";
+    text-decoration: none;
+} 
+
+.personaje p::after {
+    content: url(images/scroll.png);
+}
+
+
+#cartas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.personaje p::first-letter {
+    font-family: "Medieval";
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.personaje h2 {
+    font-family: "Medieval";
+    text-align: center;
+    margin-top: 5%;
+    font-size: 2.3rem;
+    text-shadow: rgb(0, 0, 0) 0.1rem 0.3rem 0.3rem;
+
+}
+
+.personaje:hover {
+    background-color: rgba(255, 255, 255, 0.748);
+    font-size: 1.5rem;
+    box-shadow: rgb(0, 0, 0) 0.7rem 1rem 0.8rem;
+}
+
+.personaje img {
+    float: left;
+    display: block;
+}
+
+#roguesactivas {
+    border: solid black 1px;
+    text-align: center;
+    background-color: grey;
+}
+
+/*-------------------------------------------------------------------------------------------------TABLAS PJ---------------------------------------------------------------------------------------*/
+table {
+    text-align: center;
+    width: 50%;
+    caption-side: bottom;
+    font-size: 1.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Texto";
+    margin-bottom: 5%;
+}
+table caption {
+
+    font-family: "Texto";
+    font-size: 2rem;
+
+    padding: 1rem;
+}
+
+main>img {
+    margin-left: 47.8%;
+    margin-top: 5%;
+}
+
+main h3 {
+    text-align: center;
+    background: repeating-linear-gradient(to top right, rgba(0, 0, 0, 0.833),
+            rgba(0, 0, 0, 0.774) 8px,
+            rgba(41, 41, 40, 0.764) 8px,
+            rgba(37, 37, 36, 0.771) 16px);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 10%;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: "Medieval";
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(255, 255, 255) 0.1rem 0.3rem 0.8rem;
+
+}
+
+/*-------------contenedor de cada pj para tablas --------------*/
+.tablashabilidades {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    empty-cells: hide;
+}
+
+.tablashabilidades table {
+    width: 40%;
+}
+
+/*--------------------------------------------------------TABLA ACTIVAS-----------------------------------------------------------*/
+.activa {
+    border-collapse: separate;
+    border-spacing: 2rem;
+    caption-side: top;
+   
+
+}
+
+.activa caption {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-shadow: white 0.1rem 0.1rem 1.2rem;
+    border: double .25rem white;
+}
+
+.activa tr th {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: white .25rem solid;
+    font-size: 1.6rem;
+    padding: 1rem;
+    text-shadow: white 0.1rem 0.1rem 1.2rem;
+}
+
+.activa tr td {
+    padding: 1rem;
+}
+
+.activa tr td:first-child {
+    width: 35%;
+    font-size: 1.6rem;
+}
+
+.activa tr:nth-child(odd) td {
+    background-color: rgba(0, 0, 0, 0.819);
+    color: rgb(255, 255, 255);
+    text-shadow: white 0.1rem 0.1rem 1.2rem;
+    border: dotted rgb(255, 255, 255) .25rem;
+
+}
+
+.activa tr:nth-child(even) td {
+    background-color: rgba(255, 255, 255, 0.36);
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(0, 0, 0) 0.1rem 0.3rem 0.3rem;
+    border: double rgb(255, 255, 255) .25rem;
+}
+
+/*-----HOVERS ACTIVA------*/
+.activa tr:nth-child(even):hover td {
+    background-color: rgb(35, 30, 5);
+    color: rgb(255, 255, 255);
+    transition: 1s ease-out;
+}
+
+.activa tr:nth-child(odd):hover td {
+    background-color: rgb(46, 12, 12);
+    color: rgb(255, 255, 255);
+    transition: 1s ease-out;
+}
+
+/*--------------------------------------------------------TABLA PASIVAS-----------------------------------------------------------*/
+.pasivas {
+    border-collapse: collapse;
+    margin-top: 8rem;
+    vertical-align: middle;
+    table-layout: fixed;
+}
+
+.pasivas caption {
+    border-bottom: double white 0.25rem;
+    border-right: double white 0.25rem;
+    border-left: double white 0.25rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-shadow: white 0.1rem 0.1rem 1.2rem;
+}
+
+.pasivas tr th {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 1.6rem;
+    padding: 1rem;
+    text-shadow: white 0.1rem 0.1rem 1.2rem;
+    border-top: double white .25rem;
+    border-right: double white .25rem;
+}
+
+.pasivas tr td {
+    padding: 1rem;
+    border-bottom: dotted rgb(243, 211, 4) .25rem;
+}
+
+.pasivas tr:last-child td {
+    border: none;
+}
+
+.pasivas tr td:first-child {
+    border-left: double rgb(255, 255, 255) .25rem;
+    width: 35%;
+    font-size: 1.6rem;
+}
+
+.pasivas tr td:last-child {
+    border-right: double rgb(255, 255, 255) .25rem;
+    border-left: dotted rgb(243, 211, 4) .25rem;
+    width: 35%;
+    font-size: 1.6rem;
+}
+
+
+.pasivas tr:nth-child(even) td {
+    background-color: rgba(0, 0, 0, 0.819);
+    color: rgb(255, 255, 255);
+    text-shadow: white 0.1rem 0.1rem 1.2rem;
+}
+
+.pasivas tr:nth-child(odd) td {
+    background-color: rgba(255, 255, 255, 0.36);
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(0, 0, 0) 0.1rem 0.3rem 0.3rem;
+}
+
+.pasivas tr td:first-child {
+    width: 20%;
+    font-size: 1.6rem;
+}
+
+
+/*Bordestablas*/
+.pasivas tr th:first-child {
+    border-left: white .25rem double;
+    border-right: white .25rem solid;
+}
+
+
+/*-----HOVERS ACTIVA------*/
+.pasivas tr:nth-child(odd):hover td {
+    background-color: rgb(35, 30, 5);
+    color: rgb(255, 255, 255);
+    transition: 1s ease-out;
+}
+
+.pasivas tr:nth-child(even):hover td {
+    background-color: rgb(46, 12, 12);
+    color: rgb(255, 255, 255);
+    transition: 1s ease-out;
+}
+
+/*--------------------------------------------------------LANZAMIENTOS-----------------------------------------------------------*/
+#divlanzamientos {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+    margin-top: 10%F;
+}
+#divlanzamientos ul{
+    margin-left: 2%;
+}
+
+#divlanzamientos ul li:nth-child(even) {
+    list-style: url("images/test-de-velocidad\ \(1\).png");
+   
+}
+#divlanzamientos ul li:nth-child(odds) {
+    list-style-type: square;
+    
+}
+
+#divlanzamientos ul li {
+    color: rgb(0, 0, 0);
+    font-family: "Texto";
+    font-size: 1.5rem;
+}
+
+#divlanzamientos ul li a:link {
+    text-decoration: none;
+}
+
+#divlanzamientos li a {
+    color: red;
+}
+
+main h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    font-family: "Texto";
+    text-shadow: rgb(212, 209, 17) 1rem 1rem 0.8rem;
+}
+main h1::before{
+    content: url(images/candil2.png);
+}
+
+#caja1 {
+    width: 3rem;
+    height: 3rem;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+
+}
+
+#caja2 {
+    width: 3rem;
+    height: 3rem;
+    z-index: -1;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    right: 50%;
+    top: 50%;
+}
+/*--------------------------------------------------------GALERIA-----------------------------------------------------------*/
+#divimagenes{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 70%;
+    height: 30.875rem;
+    margin-bottom: 10%;
+}
+#divimagenes img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.9;
+    transition: .5s ease;
+}
+#divimagenes img:hover{
+    cursor: crosshair;
+    width: 28.75rem;
+    opacity: 1;
+    filter: contrast(120%);
+}
+#divvideos{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 70%;
+}
+#divvideos iframe{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: .5s ease;
+}
+#divvideos iframe:hover{
+    cursor: crosshair;
+    width: 20.75rem;
+    height: 28rem;
+    opacity: 1;
+    margin-bottom: 10%;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> PRACTICA FORMULARIO </title>
+    <meta charset="uft-8">
+</head>
+<body>
+<form action="casa.php" method="post">
+  Nombre: <input type="text" size="30" maxlength="14">
+  <br><br>
+  Pass: <input type="password" size="30" minlength="5">
+  <br><br><br>
+  <textarea name="comentario" row="4" cols="10"></textarea>
+    <br><br>
+    HOBBIES: <br>
+    <input type="checkbox" name="Cine"> Cine <br>
+    <input type="checkbox" name="Deporte"> Deporte <br>
+    <input type="checkbox" name="Padel"> Padel <br>
+    <input type="checkbox" name="Cerveza" checked> Cerveza <br>
+    <input type="checkbox" name="Surf"> Surf <br>
+    <br><br>
+
+    <input type="radio" name="HOBBIES" value="1"> Cine <br>
+    <input type="radio" name="HOBBIES"value="2"> Deporte <br>
+    <input type="radio" name="HOBBIES"value="3"> Padel <br>
+    <input type="radio" name="HOBBIES" value="4" checked> Cerveza <br>
+    <input type="radio" name="HOBBIES"value="5"> Surf <br>
+    <br>
+    
+    PAIS 
+    
+    <select name="obbieslista">
+
+    <option selected value="0">Elige su opción</option>
+    <option value="1" >ESPAÑITA</option>
+    <option value="1">FRANCHUTE</option>
+    <option value="1">DINAMARCA</option>
+    <option value="1">CONGO</option>
+    </select>
+
+    <select multiple name="categorias[]">
+      <option value="1" >ESPAÑITA</option>
+      <option value="2">FRANCHUTE</option>
+      <option value="3">DINAMARCA</option>
+      <option type="checkbox" value="4">CONGO</option>
+    </select>
+
+
+    <input type="submit" value="Enviar" size="20">
+
+</form>    
+
+
+
+</body>
+</html>

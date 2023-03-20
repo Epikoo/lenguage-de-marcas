@@ -1,0 +1,41 @@
+li:nth-child(odd){
+    background-color: black;
+    color:white;
+}
+li:nth-child(even){
+    background-color: gray;
+    color: white;
+}
+a:focus{
+    background-color: yellow;
+
+}
+a:active{
+    background-color: orange;
+}
+a:visited{
+    color: purple;
+}
+.p1::first-letter{
+    font-size: 2rem;
+}
+#p2::first-letter{
+    font-size: 2rem;
+}
+#p2::first-line{
+    text-transform: uppercase;
+}
+#p2::before{
+    content: "Sinopsis:";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+#p2{
+    background-color: gray;
+    
+}
+
+#p2::before::first-letter{
+    font-size: 2rem;
+}

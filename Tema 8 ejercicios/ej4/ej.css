@@ -1,0 +1,26 @@
+.tabla-streamers caption{
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: violet;
+}
+.tabla-streamers tbody tr:first-child{
+    background-color: purple;
+}
+.tabla-streamers tbody tr:nth-child(even){
+    background-color: violet;
+}
+.tabla-streamers tbody tr:nth-child(2n+3){
+    background-color: rgb(255, 254, 255);
+}
+
+.tabla-streamers tbody tr:nth-child(even):hover{
+    background-color: rgb(0, 60, 255);
+}
+.tabla-streamers tbody tr:nth-child(2n+3):hover{
+    background-color: rgb(78, 72, 72);
+}
+.tabla-streamers td{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(2, 2, 2);
+}

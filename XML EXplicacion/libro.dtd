@@ -1,0 +1,15 @@
+<!ELEMENT biblioteca (libro)+>
+
+<!ATTLIST biblioteca ciudad CDATA #REQUIRED> <!--Campo obligatorio-->
+<!ATTLIST libro formato CDATA "tapa blanda"> <!--Valor por defecto-->
+
+
+<!ELEMENT libro (titulo, (autor|autora), paginas, editorial?, categoria*)>
+
+<!ELEMENT autora (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ATTLIST titulo subtitulo CDATA #IMPLIED>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT paginas (#PCDATA)>

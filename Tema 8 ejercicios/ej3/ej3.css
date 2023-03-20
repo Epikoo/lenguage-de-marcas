@@ -1,0 +1,32 @@
+
+caption{
+    background-color: yellow;
+    color: blue;
+    font-weight: bold;
+}
+table{
+    border: 0.25rem solid rgb(252, 0, 0);
+    border-collapse: collapse;
+    text-align: center;
+    empty-cells: hide;
+}
+td{
+    border: 0.15rem solid blue ;
+    
+    
+}
+th{
+    color: red;
+}
+#t2{
+    caption-side: bottom;
+    margin-top: 2rem;
+}
+th caption{
+    font-weight: bold;
+}
+td:hover{
+   background-color: lightblue; 
+   transition-duration: 0.5s; /*Para dar al hover una pequeña animacion*/
+   
+}

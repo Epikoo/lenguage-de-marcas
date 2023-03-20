@@ -1,0 +1,10 @@
+*{color:blue} /*Aplica a todo el documento*/
+p{text-align: center;}/*aplica a todos los p*/
+.miclase{border:solid 1px red}/*aplica a todos las etiquetas marcadas con mi clase*/
+#miidentificador{background-color: cyan;}/*aplica a todos las etiquetas marcadas con mi identificador*/
+ul li {background-color: gray;}/*aplica a todos las etiquetas li que esten dentro de ul*/
+h1, h2{border:solid 3px green}/*aplica a todos las etiquetas h1 y h2*/
+p>a{background-color: yellow;}/*aplica a todos las etiquetas a dentro de los p, siempre que no haya otra erquita enmedio(hijo direccto)*/
+p+div{border: solid 2px blue}/*aplica a todos las etiquetas p que esten pegadas a un div  */
+p[lang="es"]{background-color: red;}/*aplica a todos los atributos lang="es" */
+p[lang="en"]{background-color: orange;}/*aplica a todos los atributos lang="es" */

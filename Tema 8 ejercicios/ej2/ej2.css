@@ -1,0 +1,30 @@
+ul{
+    background-color: rgb(180, 180, 180);
+    font-size: 2rem;
+    font-weight: bold;
+    border: rgb(0, 0, 0);
+}
+li{
+    list-style-image: url(/ej2/pelicula.png);
+    list-style-position: inside;
+    font-size: 1rem;
+    font-weight: normal;
+}
+li::first-letter{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+li:nth-child(even){
+    background-color: rgb(26, 199, 26);
+    color: black;
+}
+li:nth-child(odd){
+    background-color: rgb(104, 103, 103);
+    color: white;
+}
+li:nth-child(even):hover{
+    background-color: rgb(15, 82, 15);
+}
+li:nth-child(odd):hover{
+    background-color: rgb(224, 243, 242);
+}

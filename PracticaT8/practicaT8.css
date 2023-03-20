@@ -1,0 +1,207 @@
+header {
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+    background-color: lightblue;
+    font-weight: bold;
+    text-align: center;
+    border: 0.6rem solid blue;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 2%;
+
+
+}
+
+.tabla-emision-animes {
+    caption-side: bottom;
+    text-align: center;
+    border-left: 0.25rem gray;
+    border-top: 0.25rem gray;
+    border-bottom: 0.25rem blue;
+    border-right: 0.25rem blue;
+    border-style: solid;
+    empty-cells: hide;
+    border-spacing: 0.40rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 90%;
+    
+
+}
+
+.tabla-emision-animes caption {
+    text-decoration: underline;
+    background-color: lightblue;
+    color: blue;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.tabla-emision-animes th {
+    color: blue;
+    background-color: rgb(82, 125, 139);
+    margin: 10px;
+}
+
+.tabla-emision-animes tr:nth-child(odd) td {
+    background-color: rgb(138, 130, 130);
+    color: rgb(255, 255, 255);
+}
+
+.tabla-emision-animes tr:nth-child(even) td {
+    background-color: rgb(133, 171, 204);
+    color: blue;
+}
+
+
+h3 {
+    color: rgb(64, 89, 172);
+    text-decoration: underline dashed;
+    font-size: 2rem;
+    margin-left: 5%;
+
+}
+
+.lista-plataformas {
+    background-color: lightblue;
+    border-bottom: 0.25rem solid blue;
+    border-right: 0.25rem solid blue;
+    border-top: 0.25rem solid gray;
+    border-left: 0.25rem solid gray;
+    font-size: 1rem;
+    font-weight: bold;
+    color:  rgb(78, 78, 78);
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1.7rem;
+    min-width: 85%;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+
+}
+
+.lista-plataformas li span {
+    color: blue;
+    text-decoration: underline;
+    font-weight: normal;
+
+}
+
+.lista-plataformas li::marker {
+    color: rgb(95, 89, 89);
+    text-decoration: overline;
+    font-weight: bold;
+}
+.lista-plataformas a:visited{
+    color: rgb(85, 207, 28);
+}
+.lista-plataformas a:hover{
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+}
+.lista-plataformas a:focus{
+    border: black dotted 0.2rem; 
+    background-color: white ;
+    color: black;
+}
+.lista-plataformas a:active{
+    color:red
+}
+.lista-plataformas li:nth-child(3):link{
+    color: black;
+}
+
+
+.tabla-precio-plataformas {
+    width: 90%;
+    text-align: center;
+    border-bottom: 0.25rem solid blue;
+    border-right: 0.25rem solid blue;
+    border-top: 0.25rem solid gray;
+    border-left: 0.25rem solid gray;
+    border-spacing: 0.30rem;
+    table-layout: fixed;
+    border-collapse: collapse;
+    min-width: 85%;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+
+}
+
+.tabla-precio-plataformas caption {
+    text-decoration: underline;
+    background-color: lightblue;
+    color: blue;
+    font-size: 1.45rem;
+    font-weight: bold;
+}
+
+.tabla-precio-plataformas th {
+    color: blue;
+    background-color: rgb(82, 125, 139);
+    margin: 10px;
+    border: 0.25rem solid gray;
+    border-bottom: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.tabla-precio-plataformas td {
+    border-right: 0.25rem solid blue;
+
+}
+
+.tabla-precio-plataformas tr:nth-child(odd) td {
+    background-color: rgb(138, 130, 130);
+    color: rgb(255, 255, 255);
+
+}
+
+.tabla-precio-plataformas tr:nth-child(even) td {
+    background-color: rgb(133, 171, 204);
+    color: blue;
+
+}
+
+.lista-consideraciones {
+    border-bottom: 0.25rem solid blue;
+    border-right: 0.25rem solid blue;
+    border-top: 0.25rem solid gray;
+    border-left: 0.25rem solid gray;
+    border-spacing: 0.30rem;
+    color: rgb(78, 78, 78);
+    background-color: lightblue;
+    line-height: 2rem;
+    min-width: 85%;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+    
+}
+.tabla-emision-animes tr:nth-child(even):hover td{
+    background-color: rgb(16, 38, 147);
+    color: rgb(255, 255, 255);
+}
+.tabla-emision-animes tr:nth-child(odd):hover td{
+    background-color: rgb(105, 88, 88);
+    color: rgb(0, 0, 0);
+}
+.tabla-precio-plataformas tr:nth-child(even):hover td{
+    background-color: rgb(16, 38, 147);
+    color: rgb(255, 255, 255);
+}
+.tabla-precio-plataformas tr:nth-child(odd):hover td{
+    background-color: rgb(105, 88, 88);
+    color: rgb(0, 0, 0);
+}

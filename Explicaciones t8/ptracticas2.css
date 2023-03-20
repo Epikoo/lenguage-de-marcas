@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Star Wars";
+    src: url(Stjldbl2.ttf);
+}
+*{
+    font-family: "Star Wars";
+}
+
+div.caja1 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border: 10px solid orangered;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+div.caja2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 10px solid lightskyblue;
+    position: relative;
+    z-index: 0;
+    top: 50px;
+    left: 50px;
+    display: none;
+}
+
+div.cajaflotante {
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(246, 33, 246);
+    float: left;
+    border-radius: 2.5rem;
+    box-shadow: 0.2rem 0.8rem 0.5rem violet;
+    /*Primer valor longitud de la simbra, el 2 la separacion del elemento
+    y el tercero la opacidad*/ 
+    opacity: 1; /*La opacidad va desde 0 a 1*/
+    background: linear-gradient(blue, red);
+    background: linear-gradient(128deg, blue, red);
+    background: linear-gradient(45deg, blue, 20%, green, red );
+    background: radial-gradient(blue, yellow);
+    
+}

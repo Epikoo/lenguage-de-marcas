@@ -1,0 +1,71 @@
+Propiedades del texto (punto 2.1 del tema 8)
+    -Text-align 	  V
+    -color		      V
+    -background-color	  V
+    -text-decoration	  V 
+    -letter-spacion	  V
+    -word-spaciong	  V
+    -text transform	  V
+    -line height	  V	
+Propiedades de las fuentes (punto 3 del tema 8)
+    -font-family	  V
+    -font-style		  V	
+    -font-weight	  V	
+    -font-size		  V
+Propiedades de las listas (punto 4 del tema 8)
+    -list-style-type	  V
+    -list-style-image	  V
+    -list-style-position  V
+Pseudoclases y pseudoelementos (del punto 5.1 al punto 5.3 del tema 8)
+    -first-child          V
+    -last-child;	      V
+    -:nth-child(n);       V
+    -:link                V  
+    -:visited             V
+    -:active              V
+    -:focus               V
+    -:first-line          V  
+    -:first-letter       V
+    -::before            V
+    -::after             V
+Propiedades de las tablas (punto 6 del tema 8)
+    -caption-side        V
+    -table-layout        V
+    -border-collapse     V
+    -border-spacing      V
+    -empty-cells         V
+    -width               V
+    -height              V
+    -vertical-align      V
+Propiedades asociadas a las cajas (punto 7.1 del tema 8)
+    -content            V
+    -padding            V
+    -border             V
+    -background-image   V
+    -margin             V
+Propiedades que debemos considerar en el modelo de cajas (punto 7.3 del tema 8)
+    -boxsizing      V
+    -display        V
+    -overflow       V
+Disposición de los elementos (punto 2 del tema 9)
+    -static         V
+    -relative       V
+    -absolute       X
+    -fixed          V
+    -top            V
+    -bottom         V
+    -left           V
+    -right          V
+    -z-index        V
+Posicionamiento flotante (punto 3 del tema 9. Sólo la propiedad float)
+    -float          V
+Propiedades CSS3 (del punto 5.1 al 5.5 del tema 9)
+•  Colocar varias imágenes de fondo                  V
+•  Esquinas redondeadas                              V
+•  Bordes con imágenes                               V
+•  Sombras                                           V
+•  Transparencias                                    V
+•  Varias columnas en el contenido                   V
+•  Nuevos posicionamientos de cajas                  V
+•  Nuevos selectores                                 V
+•  Transformaciones, transiciones y animaciones      V
